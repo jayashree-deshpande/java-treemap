@@ -12,9 +12,9 @@ public class HashTreeCopy {
 		
 		System.out.println(tm);
 		TreeMap<String, String> subMap = new TreeMap<String, String>();
-        subMap.put("s1", "S1 VALUE");
-        subMap.put("s2", "S2 VALUE");
-        tm.putAll(subMap);
-        System.out.println(tm);
+        	subMap.put("s1", "S1 VALUE");
+        	subMap.put("s2", "S2 VALUE");
+        	tm.putAll(subMap);
+        	System.out.println(tm);
 	}
 }
